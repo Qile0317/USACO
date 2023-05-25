@@ -19,7 +19,10 @@ void abc(vector<int>& arr) {
 
 int main() {
     vector<int> inp = {0,0,0,0,0,0,0};
-    scanf("%d %d %d %d %d %d %d", &inp[0],&inp[1],&inp[2],&inp[3],&inp[4],&inp[5],&inp[6]);
+    scanf(
+        "%d %d %d %d %d %d %d",
+        &inp[0],&inp[1],&inp[2],&inp[3],&inp[4],&inp[5],&inp[6]
+    );
     abc(inp);
     return 0;
 }
